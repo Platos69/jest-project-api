@@ -158,3 +158,10 @@ document.addEventListener('DOMContentLoaded', function() {
 var btn3 = document.querySelector('#mais-info')
 var Mais = document.querySelector('#mais-infor')
 
+function carregar(){
+    var msg = window.document.getElementById('msg')
+    var data = new Date()
+    var hora = data.getHours()
+    var min = data.getMinutes()
+    msg.innerHTML = `Agora são ${hora}:${min}h`
+}

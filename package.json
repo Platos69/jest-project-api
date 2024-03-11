@@ -1,0 +1,30 @@
+{
+  "name": "apiclim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx eslint ./code/script.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AertonDg/APICLIM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AertonDg/APICLIM/issues"
+  },
+  "homepage": "https://github.com/AertonDg/APICLIM#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
